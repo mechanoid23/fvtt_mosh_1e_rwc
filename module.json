@@ -61,6 +61,13 @@
         "name": "actors_vehicles_1e",
         "path": "packs/actors_vehicles_1e.db",
         "system": "mosh"
+      },
+      {
+        "label": "Ships (1e)",
+        "type": "Actor",
+        "name": "actors_ships_1e",
+        "path": "packs/actors_ships_1e.db",
+        "system": "mosh"
       }
     ],
     "relationships": {
