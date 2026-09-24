@@ -75,6 +75,13 @@
         "name": "rolltables_1e",
         "path": "packs/rolltables_1e.db",
         "system": "mosh"
+      },
+      {
+        "label": "Vehicles (1e)",
+        "type": "Actor",
+        "name": "actors_vehicles_1e",
+        "path": "packs/actors_vehicles_1e.db",
+        "system": "mosh"
       }
     ],
     "relationships": {
