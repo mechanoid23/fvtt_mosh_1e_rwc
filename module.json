@@ -21,7 +21,7 @@
         "system": "mosh"
       },
       {
-        "label": "Player Skills (1e)",
+        "label": "Psionic Abilities (1e)",
         "type": "Item",
         "name": "items_skills_1e",
         "path": "packs/items_skills_1e.db",
@@ -46,27 +46,6 @@
         "type": "Item",
         "name": "items_equipment_1e",
         "path": "packs/items_equipment_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Medical Care (1e)",
-        "type": "Item",
-        "name": "items_medical_care_1e",
-        "path": "packs/items_medical_care_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Patches (1e)",
-        "type": "Item",
-        "name": "items_patches_1e",
-        "path": "packs/items_patches_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Trinkets (1e)",
-        "type": "Item",
-        "name": "items_trinkets_1e",
-        "path": "packs/items_trinkets_1e.db",
         "system": "mosh"
       },
       {
