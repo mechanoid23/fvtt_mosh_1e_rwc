@@ -2,7 +2,7 @@
     "id": "fvtt_mosh_1e_rwc",
     "title": "Mothership 1e - Rimward Classes",
     "description": "Six homebrew classes for Mothership 1e: Criminal, Robot, Ranger, Retiree, Psychic, and Emissary. Requires the mosh system fork with Potential stat support.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "compatibility": {
       "minimum": "11",
       "verified": "14"
