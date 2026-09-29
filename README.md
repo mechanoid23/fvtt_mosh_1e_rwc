@@ -1,26 +1,25 @@
-## Mothership PSG Compendium | 1e | FoundryVTT
-![image](https://github.com/hollowphoton/fvtt_mosh_1e_psg/assets/17795348/a785e4c4-acf5-4fba-bb9b-96dd3a0c0876)
+## Mothership RWC Compendium | 1e | FoundryVTT
 
-This is a module I've created for use in my own personal Mothership game. It contains everything I found relevant in the 1e Player's Survival Guide.
+Module ID: `fvtt_mosh_1e_rwc`
+
+This module contains homebrew and Rimward Colonies content for Mothership 1e, extending the base PSG compendium.
 
 #### Features
-- Classes
+- Classes (Psychic, Emissary, and others)
+- Psionic Abilities (`type: "ability"`) — rendered on the Psionics tab of the character sheet when playing a Psychic or Emissary
 - Player Skills
-- Armor
-- Weapons
-- Equipment
-- Trinkets
-- Patches
-- Medical Care
-- Rolltables (Loadouts, Trinkets, Patches)
+- Armor, Weapons, Equipment
+- Trinkets, Patches
+- Rolltables (Loadouts per class, shared Trinket and Patch tables)
+
+#### Psionic abilities note
+All psionic power items use `"type": "ability"` (not `"type": "skill"`). This separates them from standard skills and makes them appear on the dedicated Psionics tab in the mosh-fork system. The `ability` type uses fields: `rank`, `bonus`, `prerequisite_ids`.
 
 #### Installation
+Requires the [mosh-fork system](https://raw.githubusercontent.com/mechanoid23/fvtt-mosh-fork/master/system.json).
+
  1. Load up Foundry VTT and go to the Add-On Modules tab
  2. Click Install Module
- 3. Paste this URL into the Manifest URL field: https://github.com/hollowphoton/fvtt_mosh_1e_psg/releases/download/0.3.16/module.json
+ 3. Paste this URL into the Manifest URL field: `https://raw.githubusercontent.com/mechanoid23/fvtt_mosh_1e_rwc/master/module.json`
  4. Hit Install
- 5. In a world that uses v0.5.25 (or later) of the unofficial MoSh system, go to Settings
- 6. Click on Manage Modules
- 7. Check the box next to this Module
- 8. Click Save Module Settings
- 9. You can now find this content in the compendium
+ 5. Enable the module in your world settings
