@@ -1,5 +1,7 @@
 ## Mothership RWC Compendium | 1e | FoundryVTT
 
+**Install in Foundry VTT:** `https://raw.githubusercontent.com/mechanoid23/fvtt_mosh_1e_rwc/main/module.json`
+
 Module ID: `fvtt_mosh_1e_rwc`
 
 This module contains homebrew and Rimward Colonies content for Mothership 1e, extending the base PSG compendium.
@@ -20,6 +22,6 @@ Requires the [mosh-fork system](https://raw.githubusercontent.com/mechanoid23/fv
 
  1. Load up Foundry VTT and go to the Add-On Modules tab
  2. Click Install Module
- 3. Paste this URL into the Manifest URL field: `https://raw.githubusercontent.com/mechanoid23/fvtt_mosh_1e_rwc/master/module.json`
+ 3. Paste this URL into the Manifest URL field: `https://raw.githubusercontent.com/mechanoid23/fvtt_mosh_1e_rwc/main/module.json`
  4. Hit Install
  5. Enable the module in your world settings
