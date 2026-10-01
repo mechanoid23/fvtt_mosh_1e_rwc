@@ -1,89 +1,89 @@
 {
-    "id": "fvtt_mosh_1e_rwc",
-    "title": "Mothership 1e - Rimward Classes",
-    "description": "Six homebrew classes for Mothership 1e: Criminal, Robot, Ranger, Retiree, Psychic, and Emissary. Requires the mosh system fork with Potential stat support.",
-    "version": "0.2.1",
-    "compatibility": {
-      "minimum": "11",
-      "verified": "14"
+  "id": "fvtt_mosh_1e_rwc",
+  "title": "Mothership 1e - Rimward Classes",
+  "description": "Six homebrew classes for Mothership 1e: Criminal, Robot, Ranger, Retiree, Psychic, and Emissary. Requires the mosh system fork with Potential stat support.",
+  "version": "0.2.2",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "mechanoid23"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Classes (1e)",
+      "type": "Item",
+      "name": "items_classes_1e",
+      "path": "packs/items_classes_1e.db",
+      "system": "mosh"
     },
-    "authors": [
+    {
+      "label": "Psionic Abilities (1e)",
+      "type": "Item",
+      "name": "items_skills_1e",
+      "path": "packs/items_skills_1e.db",
+      "system": "mosh"
+    },
+    {
+      "label": "Armor (1e)",
+      "type": "Item",
+      "name": "items_armor_1e",
+      "path": "packs/items_armor_1e.db",
+      "system": "mosh"
+    },
+    {
+      "label": "Weapons (1e)",
+      "type": "Item",
+      "name": "items_weapons_1e",
+      "path": "packs/items_weapons_1e.db",
+      "system": "mosh"
+    },
+    {
+      "label": "Equipment (1e)",
+      "type": "Item",
+      "name": "items_equipment_1e",
+      "path": "packs/items_equipment_1e.db",
+      "system": "mosh"
+    },
+    {
+      "label": "Rolltables (1e)",
+      "type": "RollTable",
+      "name": "rolltables_1e",
+      "path": "packs/rolltables_1e.db",
+      "system": "mosh"
+    },
+    {
+      "label": "Vehicles (1e)",
+      "type": "Actor",
+      "name": "actors_vehicles_1e",
+      "path": "packs/actors_vehicles_1e.db",
+      "system": "mosh"
+    },
+    {
+      "label": "Ships (1e)",
+      "type": "Actor",
+      "name": "actors_ships_1e",
+      "path": "packs/actors_ships_1e.db",
+      "system": "mosh"
+    }
+  ],
+  "relationships": {
+    "systems": [
       {
-        "name": "mechanoid23"
-      }
-    ],
-    "packs": [
-      {
-        "label": "Classes (1e)",
-        "type": "Item",
-        "name": "items_classes_1e",
-        "path": "packs/items_classes_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Psionic Abilities (1e)",
-        "type": "Item",
-        "name": "items_skills_1e",
-        "path": "packs/items_skills_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Armor (1e)",
-        "type": "Item",
-        "name": "items_armor_1e",
-        "path": "packs/items_armor_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Weapons (1e)",
-        "type": "Item",
-        "name": "items_weapons_1e",
-        "path": "packs/items_weapons_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Equipment (1e)",
-        "type": "Item",
-        "name": "items_equipment_1e",
-        "path": "packs/items_equipment_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Rolltables (1e)",
-        "type": "RollTable",
-        "name": "rolltables_1e",
-        "path": "packs/rolltables_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Vehicles (1e)",
-        "type": "Actor",
-        "name": "actors_vehicles_1e",
-        "path": "packs/actors_vehicles_1e.db",
-        "system": "mosh"
-      },
-      {
-        "label": "Ships (1e)",
-        "type": "Actor",
-        "name": "actors_ships_1e",
-        "path": "packs/actors_ships_1e.db",
-        "system": "mosh"
-      }
-    ],
-    "relationships": {
-      "systems": [
-        {
-          "id": "mosh",
-          "type": "system",
-          "manifest": "https://raw.githubusercontent.com/mechanoid23/fvtt-mosh-fork/master/system.json",
-          "compatibility": {
-            "minimum": "0.5.25",
-            "verified": "0.6.1"
-          }
+        "id": "mosh",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/mechanoid23/fvtt-mosh-fork/master/system.json",
+        "compatibility": {
+          "minimum": "0.5.25",
+          "verified": "0.6.1"
         }
-      ]
-    },
-    "url": "https://github.com/mechanoid23/fvtt_mosh_1e_rwc",
-    "manifest": "https://raw.githubusercontent.com/mechanoid23/fvtt_mosh_1e_rwc/main/module.json",
-    "download": "https://github.com/mechanoid23/fvtt_mosh_1e_rwc/releases/download/v0.2.1/fvtt_mosh_1e_rwc.zip"
-  }
+      }
+    ]
+  },
+  "url": "https://github.com/mechanoid23/fvtt_mosh_1e_rwc",
+  "manifest": "https://raw.githubusercontent.com/mechanoid23/fvtt_mosh_1e_rwc/main/module.json",
+  "download": "https://github.com/mechanoid23/fvtt_mosh_1e_rwc/releases/download/v0.2.1/fvtt_mosh_1e_rwc.zip"
+}
